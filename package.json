@@ -1,0 +1,30 @@
+{
+  "name": "gimnasio_altamiranda",
+  "version": "0.0.1",
+  "description": "Proyecto final curso desarrollador web",
+  "main": "\"\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "node-sass --include-path scss sass/main.scss css/style.css",
+    "watch-scss": "nodemon -e scss -x \"npm run compile-sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudioaltamiranda/trabajoFinal.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "sass"
+  ],
+  "author": "Claudio Altamiranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudioaltamiranda/trabajoFinal/issues"
+  },
+  "homepage": "https://github.com/claudioaltamiranda/trabajoFinal#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="gimnasio AxisGim formulario contacto" />
+    <meta name="keywords" content="AxisGim gimnasio contacto form" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AxisGim|Formulario de contacto</title>
+    <!-- CSS Propio -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Contacto</h1>
+      <form>
+        <!-- APELLIDO Y NOMBRE -->
+        <div>
+          <label for="apellidoYNombreTextInput">Apellido y nombre</label>
+          <input
+            type="text"
+            id="apellidoYNombreTextInput"
+            placeholder="Apellido y nombre"
+          />
+        </div>
+        <!-- EMAIL -->
+        <div>
+          <label for="inputEmail">Correo electrónico</label>
+          <input type="email" id="inputEmail" placeholder="Email de contacto" />
+        </div>
+        <!-- TELEFONO DE CONTACTO -->
+        <div>
+          <label for="telefonoDeContactoTextInput">Teléfono de contacto</label>
+          <input
+            type="text"
+            id="telefonoDeContactoTextInput"
+            placeholder="Teléfono de contacto"
+          />
+        </div>
+        <!-- TU CONSULTA -->
+        <div>
+          <label for="comentarioTextarea">Comentario</label>
+          <textarea
+            placeholder="Deja tu comentario aca ..."
+            id="comentarioTextarea"
+          ></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
