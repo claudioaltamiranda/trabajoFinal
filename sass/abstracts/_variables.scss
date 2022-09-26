@@ -10,9 +10,11 @@ función scss para color:
     lighten(color, porcentaje);
 */
 
-$color-primary-light: #7ed56f;
-$color-primary: #55c57a;
-$color-primary-dark: #28b485;
+$color-primary-light: #eea564;
+$color-primary: #e67e22;
+$color-primary-dark: #8a4c14;
+
+$color-primary-fondo-suave: rgba($color-primary-light, 0.4);
 
 $color-grey-dark: #777;
 $color-white: #fff;

@@ -13,4 +13,15 @@ html {
 
 body {
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 9.6rem;
+  margin-bottom: 9.6rem;
 }

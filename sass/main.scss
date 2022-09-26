@@ -1,39 +1,19 @@
 /* SCSS Variables */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-$color-primary-light: rgb(251, 208, 129);
-$color-primary: orange;
-$color-primary-dark: rgb(127, 83, 1);
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
 
-$color-grey-dark: #777;
-$color-white: #fff;
-$color-black: #000;
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
 
-$gradient: linear-gradient(
-  to right,
-  rgba($color-primary-light, 0.8),
-  rgba($color-primary-dark, 0.8)
-);
+@import "components/button";
+@import "components/estadisticas";
+@import "components/partners";
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-  font-family: "Inter", sans-serif;
-}
+@import "layout/header";
 
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  line-height: 1.7;
-  color: $color-grey-dark;
-  padding: 3rem;
-
-  box-sizing: border-box;
-}
+@import "pages/home";
